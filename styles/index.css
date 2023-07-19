@@ -1,0 +1,57 @@
+*{
+    margin: 3px;
+    margin-top: 0;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+.navbar-inner {
+    background:transparent;
+}
+.carousel{
+    margin-top: 0;
+    margin: 5px;
+}
+
+.card-group{
+    margin: 50px;
+}
+
+.card{
+    margin: 50px;
+    margin-top: 0;
+}
+
+.card-changed{
+    display: none;
+}
+.card:hover +.card-changed{
+    background-image: url(http://127.0.0.1:5500/FrontEnd/images/baby.jpg);
+}
+
+.card-title{
+    text-align: center;
+}
+
+.book-button{
+    background: rgba(249, 36, 36, 0.889);
+    border-radius: 15px;
+    border-color: white;
+    width: 100%;
+}
+
+.book-button-film{
+    background: rgba(36, 210, 249, 0.889);
+    border-radius: 15px;
+    border-color: white;
+    width: 100%;
+}
+
+.book-button-shows{
+    background: rgba(139, 36, 249, 0.889);
+    border-radius: 15px;
+    border-color: white;
+    width: 100%;
+}
+/* film options */
